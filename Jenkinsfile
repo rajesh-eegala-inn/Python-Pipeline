@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Checkout the latest code from GitHub
-                git url: 'https://github.com/your-username/your-repo-name.git', branch: 'main'
+                git url: 'https://github.com/rajesh-eegala-inn/Python-Pipeline.git', branch: 'main'
             }
         }
 
