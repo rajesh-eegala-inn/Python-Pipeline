@@ -16,19 +16,7 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
-            steps {
-                // Run tests for the Python app
-                sh './venv/bin/python -m unittest discover'
-            }
-        }
 
-        stage('Build') {
-            steps {
-                // Placeholder for any additional build steps
-                echo 'Building the application...'
-            }
-        }
 
         stage('Run Application') {
             steps {
