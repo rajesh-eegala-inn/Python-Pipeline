@@ -35,7 +35,7 @@ pipeline {
             steps {
                 // Run the Python application
                 echo 'Starting the application...'
-                sh './venv/bin/python app.py'
+                sh './venv/bin/python main.py'
             }
         }
     }
